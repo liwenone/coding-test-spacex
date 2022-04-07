@@ -1,0 +1,13 @@
+
+.card {
+  margin: 20px 0;
+  background-color: #2a2f37;
+  border-radius: 8px;
+
+  &__header {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(#e4e6eb, .2);
+  }
+}

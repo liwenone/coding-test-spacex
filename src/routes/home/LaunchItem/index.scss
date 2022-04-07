@@ -1,0 +1,76 @@
+
+.launch-item {
+  position: relative;
+  padding: 20px;
+  color: #a4b2c1;
+  position: relative;
+
+  &:not(:first-child) {
+    border-top: 1px solid rgba(#e4e6eb, .2);
+  }
+
+  &__status {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 100px;
+    height: 30px;
+    transform: rotate(15deg);
+    border: 2px solid transparent;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.success {
+      border-color: #fb8f9f;
+      color: #fb8f9f;
+    }
+
+    &.failure {
+      border-color: gray;
+      color: gray
+    }
+  }
+
+  &__base-info {
+    line-height: 1.4;
+
+    .iconfont {
+      margin-right: 4px;
+    }
+  }
+
+  &__mission-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6967fe;
+  }
+
+  &__links {
+    a {
+      margin-left: 20px;
+      color: #b0d6fc;
+    }
+  }
+  
+  &__rocket-info {
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(beige, .2);
+
+    span {
+      display: inline-block;
+      width: 110px;
+      font-weight: bold;
+    }
+  }
+  
+  &__detail {
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(beige, .2);
+  }
+}

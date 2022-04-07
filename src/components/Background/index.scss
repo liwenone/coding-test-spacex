@@ -1,0 +1,33 @@
+
+.bg {
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  &__left {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    background-image: radial-gradient(rgba(105,103,254,.8) 20%,rgba(105,103,254,.6) 40%,rgba(105,103,254,.4) 60%,rgba(105,103,254,.2) 80%,transparent 100%);
+    border-radius: 50%;
+    opacity: .2;
+    filter: blur(4rem);
+    bottom: -50%;
+    left: -20%;
+  }
+
+  &__right {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    background-image: radial-gradient(rgba(133,233,244,.8) 20%,rgba(133,233,244,.6) 40%,rgba(133,233,244,.4) 60%,rgba(133,233,244,.2) 80%,transparent 100%);
+    border-radius: 50%;
+    opacity: .2;
+    filter: blur(4rem);
+    top: -50%;
+    right: -20%;
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "outputDir": "./iconfont/output",
+  "inputDir": "./iconfont/source",
+  "styleOutputPath": "./src/components/Icon/index.scss"
+}
